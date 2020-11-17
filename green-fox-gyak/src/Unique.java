@@ -26,7 +26,7 @@ public class Unique {
         boolean contains = false; //a duplicate tartalmaz-e már egy elemet, azt vizsgálja
         int longOfArray = numberArray.length; // memória megtakarítás végett eltároljuk a tömb hosszát
         for (int i = 0; i < longOfArray; i++) {
-            j = 0; 
+            j = 0;
             while (numberArray[i] != numberArray[j] && !itSelf && j <= i) { //a j ne lépjen túl az i-n
                 if (itSelf) {
                     itSelf = false; // visszaállítjuk az önmaga értékét ha túllépi a tömb
